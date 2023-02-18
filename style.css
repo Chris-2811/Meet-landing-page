@@ -34,10 +34,16 @@ img {
   margin: 0 auto;
 }
 
+#logo {
+  
+  max-height: 28px;
+  width: 119px;
+}
+
 .navbar {
   text-align: center;
   padding: 80px 0 61px 0;
-  margin: 0 auto;
+  line-height: 0;
 }
 
 .hero {
@@ -50,7 +56,7 @@ img {
 }
 
 .hero .hero-content {
-  width: 540px;
+  max-width: 540px;
   margin: 47px 88px 0 88px;
   text-align: center;
 }
@@ -68,6 +74,7 @@ img {
   font-size: 64px;
   font-weight: 900;
   line-height: 64px;
+  padding: 0 48px;
 }
 
 .hero-content p {
