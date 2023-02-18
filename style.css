@@ -41,13 +41,12 @@ img {
 }
 
 .hero {
-  margin: 0 auto;
+  margin: 61px auto 110px auto;
   min-height: 358px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 110px;
   overflow-x: hidden;
-  overflow-y: visible;
 }
 
 .hero .hero-content {
@@ -62,7 +61,6 @@ img {
 
 .hero .hero-left {
   transform: translateX(-30px);
-  transform: translateY(-41px);
 }
 
 .hero-content h1 {
@@ -141,13 +139,14 @@ img {
 .divider .line {
   height: 84px;
   width: 1px;
-  background-color: var(--Gray-color);
+  background-color: rgba(135, 135, 157, 0.25);
 }
 
 .divider .circle {
-  border: 1px solid black;
+  border: 1px solid rgba(135, 135, 157, 0.25);
   border-radius: 50%;
   background: #fafafa;
+  color: var(--Gray-color);
   height: 56px;
   width: 56px;
   padding: 15px 19px;
@@ -165,6 +164,7 @@ img {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+
 }
 
 .main-section .content {
@@ -188,6 +188,7 @@ img {
   font-weight: 900;
   line-height: 44px;
   margin: 16px 0 32px 0;
+  padding: 0 48px;
 }
 .main-section .content .lead {
   color: var(--Gray-color);
@@ -222,7 +223,7 @@ img {
   position: relative;
 }
 
-#footer h1 {
+#footer h2 {
   max-width: 350px;
   font-size: 40px;
   font-weight: 900;
@@ -274,6 +275,7 @@ img {
     justify-content: center;
     text-align: center;
     padding: 92px 155px 66px 155px;
+    max-height: 308px;
   }
 
   #footer p {
