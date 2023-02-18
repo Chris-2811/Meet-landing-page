@@ -80,9 +80,10 @@ img {
 /* Buttons */
 
 .btn {
+  display: inline-block;
   background: var(--primary-color);
-  padding: 16px 29px;
   color: #fafafa;
+  padding: 16px 40px;
   font-size: 16px;
   font-weight: 900;
   line-height: 26px;
@@ -94,6 +95,7 @@ img {
 .btn:hover {
   cursor: pointer;
 }
+
 
 .btn.btn-primary span {
   color: #8FE3F9;
@@ -117,6 +119,10 @@ img {
   background: var(--secondary-color);
   margin-left: 16px;
   z-index: 2;
+}
+
+.btn-secondary.small {
+  padding: 16px 29px;
 }
 
 /* Divider */
