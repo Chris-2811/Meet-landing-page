@@ -41,7 +41,7 @@ img {
 }
 
 .hero {
-  margin: 61px auto 110px auto;
+  margin: 0 auto 110px auto;
   min-height: 358px;
   display: flex;
   justify-content: space-between;
