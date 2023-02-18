@@ -51,12 +51,13 @@ img {
 
 .hero .hero-content {
   width: 540px;
-  margin: 0 135px;
+  margin: 47px 88px 0 88px;
   text-align: center;
 }
 
 .hero .hero-right {
   transform: translateX(32px);
+  margin-top: 55px;
 }
 
 .hero .hero-left {
