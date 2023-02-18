@@ -26,7 +26,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 #header {
@@ -35,7 +35,6 @@ img {
 }
 
 #logo {
-  
   max-height: 28px;
   width: 119px;
 }
@@ -50,7 +49,7 @@ img {
   margin: 0 auto 110px auto;
   min-height: 358px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 110px;
   overflow-x: hidden;
 }
@@ -64,10 +63,13 @@ img {
 .hero .hero-right {
   transform: translateX(32px);
   margin-top: 55px;
+  margin-left: -32px;
 }
 
 .hero .hero-left {
-  transform: translateX(-30px);
+  transform: translateX(-32px);
+  margin-right: -32px;
+
 }
 
 .hero-content h1 {
